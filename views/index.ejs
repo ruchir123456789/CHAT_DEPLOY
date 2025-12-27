@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anonymous Chat</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<div id="nameScreen" class="screen">
+  <h2>Enter your name</h2>
+  <input id="username" placeholder="Your name" />
+  <button onclick="joinChat()">Join Chat</button>
+</div>
+
+<div id="chatScreen" class="screen hidden">
+  <div class="header">Anonymous Chat Room</div>
+  <div id="messages" class="messages"></div>
+  <div class="input-box">
+    <input id="messageInput" placeholder="Type a message..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+<script src="/script.js"></script>
+</body>
+</html>
