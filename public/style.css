@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  background: white;
+  width: 100%;
+  max-width: 400px;
+  height: 90vh;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden { display: none; }
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  background: #4a5fc1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.header {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.messages {
+  flex: 1;
+  background: #f4f4f4;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 8px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+}
